@@ -59,15 +59,18 @@ String convert(String input) {
 
 @Override
 public void mouseClicked(MouseEvent e) {
-		
+	
+	   
 }
 
 @Override
 public void mousePressed(MouseEvent e) {
 	   JLabel jlabel= new JLabel();
+	
 	   jlabel.setText(convert(answer.getText()));
 	   jpanel.add(jlabel);
 	   jframe.add(jpanel);
+	   jframe.pack();
       
 }
 
